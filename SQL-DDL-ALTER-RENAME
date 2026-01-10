@@ -1,0 +1,10 @@
+--Rename means changing the column name
+ALTER table student
+Rename COLUMN AGE to ageee;
+
+SELECT * from student;
+
+--rename to means changing the table name
+ALTER TABLE student
+Rename to class;
+SELECT * from student;
